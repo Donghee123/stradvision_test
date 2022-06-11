@@ -1,0 +1,4 @@
+#ignore data file
+*.pickle
+*.txt
+*.jpg
