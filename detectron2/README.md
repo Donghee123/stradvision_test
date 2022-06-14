@@ -3,7 +3,7 @@ Stradvision coding test
 Test3 Objectdection with ensemble
 
 폴더 구조
-'''bash
+
 └─detectron2
 
     ├─configs
@@ -59,110 +59,208 @@ Test3 Objectdection with ensemble
     │  │  ├─samplers
 
     │  │  └─transforms
-    
+
     │  ├─engine
+
     │  ├─evaluation
+
     │  ├─export
+
     │  ├─layers
+
     │  │  └─csrc
+
     │  │      ├─box_iou_rotated
+
     │  │      ├─cocoeval
+
     │  │      ├─deformable
+
     │  │      ├─nms_rotated
+
     │  │      └─ROIAlignRotated
+
     │  ├─modeling
+
     │  │  ├─backbone
+
     │  │  ├─meta_arch
+
     │  │  ├─proposal_generator
+
     │  │  └─roi_heads
+
     │  ├─model_zoo
+
     │  ├─projects
+
     │  ├─solver
+
     │  ├─structures
+
     │  ├─tracking
+
     │  └─utils
+
     ├─dev
+
     │  └─packaging
+
     ├─docker
+
     ├─docs
+
     │  ├─modules
+
     │  ├─notes
+
     │  ├─tutorials
+
     │  └─_static
+
     │      └─css
+
     ├─output
+
     │  └─inference
+
     │      └─coco_2017_val
+
     │          └─instances_predictions
+
     │              └─archive
+
     ├─projects
+
     │  ├─DeepLab
+
     │  │  └─deeplab
+
     │  ├─DensePose
+
     │  │  ├─densepose
+
     │  │  │  ├─converters
+
     │  │  │  ├─data
+
     │  │  │  │  ├─datasets
+
     │  │  │  │  ├─meshes
+
     │  │  │  │  ├─samplers
+
     │  │  │  │  ├─transform
+
     │  │  │  │  └─video
+
     │  │  │  ├─engine
+
     │  │  │  ├─evaluation
+
     │  │  │  ├─modeling
+
     │  │  │  │  ├─cse
+
     │  │  │  │  ├─losses
+
     │  │  │  │  ├─predictors
+
     │  │  │  │  └─roi_heads
+
     │  │  │  ├─structures
+
     │  │  │  ├─utils
+
     │  │  │  └─vis
+
     │  │  ├─dev
+
     │  │  ├─doc
+
     │  │  └─tests
+
     │  ├─Panoptic-DeepLab
+
     │  │  └─panoptic_deeplab
+
     │  ├─PointRend
+
     │  │  └─point_rend
+
     │  ├─PointSup
+
     │  │  ├─point_sup
+
     │  │  └─tools
+
     │  ├─Rethinking-BatchNorm
+
     │  │  └─configs
+
     │  ├─TensorMask
+
     │  │  ├─tensormask
+
     │  │  │  └─layers
+
     │  │  │      └─csrc
+
     │  │  │          └─SwapAlign2Nat
+
     │  │  └─tests
+
     │  └─TridentNet
+
     │      └─tridentnet
+
     ├─tests
+
     │  ├─config
+
     │  │  └─dir1
+
     │  ├─data
+
     │  ├─export
+
     │  ├─layers
+
     │  ├─modeling
+
     │  ├─structures
+
     │  └─tracking
+
     └─tools
+
         └─deploy
-'''
+
+
 
 추가 코드 작업 장소 및 스크립트 이름
-'''bash
+
+
 └─detectron2
+
     ├─demo
+
     │  ├─analysis_ensemble_by_F1ScoreTable.ipynb
+
     │  ├─analysis_ensemble_by_union.ipynb
+
     │  ├─analysis_retinanet_R_50_fpn_1x.ipynb
+
     │  ├─analysis_retinanet_R_50_fpn_3x.ipynb
+
     │  ├─analysis_retinanet_R_101_fpn_3x.ipynb
+
     │  ├─make_ensemble_union_predctions.py
+
     │  ├─make_f1_scroe_table.py
+
     │  ├─make_model_predctions.py
-'''
+
 
 스크립트 설명
 
