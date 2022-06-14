@@ -5,33 +5,61 @@ Test3 Objectdection with ensemble
 폴더 구조
 '''bash
 └─detectron2
+
     ├─configs
+
     │  ├─Cityscapes
+
     │  ├─COCO-Detection
+
     │  ├─COCO-InstanceSegmentation
+
     │  ├─COCO-Keypoints
+
     │  ├─COCO-PanopticSegmentation
+
     │  ├─common
+
     │  │  ├─data
+
     │  │  └─models
+
     │  ├─Detectron1-Comparisons
+
     │  ├─LVISv0.5-InstanceSegmentation
+
     │  ├─LVISv1-InstanceSegmentation
+
     │  ├─Misc
+
     │  ├─new_baselines
+
     │  ├─PascalVOC-Detection
+
     │  └─quick_schedules
+
     ├─datasets
+
     ├─demo
+
     │  ├─images
+
     │  └─__pycache__
+
     ├─detectron2
+
     │  ├─checkpoint
+
     │  ├─config
+
     │  ├─data
+
     │  │  ├─datasets
+
     │  │  ├─samplers
+
     │  │  └─transforms
+    
     │  ├─engine
     │  ├─evaluation
     │  ├─export
