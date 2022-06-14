@@ -3,6 +3,7 @@ Stradvision coding test
 Test3 Objectdection with ensemble
 
 폴더 구조
+'''bash
 └─detectron2
     ├─configs
     │  ├─Cityscapes
@@ -119,8 +120,10 @@ Test3 Objectdection with ensemble
     │  └─tracking
     └─tools
         └─deploy
+'''
 
 추가 코드 작업 장소 및 스크립트 이름
+'''bash
 └─detectron2
     ├─demo
     │  ├─analysis_ensemble_by_F1ScoreTable.ipynb
@@ -131,7 +134,7 @@ Test3 Objectdection with ensemble
     │  ├─make_ensemble_union_predctions.py
     │  ├─make_f1_scroe_table.py
     │  ├─make_model_predctions.py
-
+'''
 
 스크립트 설명
 
